@@ -26,7 +26,7 @@ def conecta_moPai():
     finally:
         conexao.close()
 
-caminho = r'C:\Users\Pitao3\AppData\Local\Tesseract-OCR'
+caminho = r'C:\Users\Pitao3\AppData\Local\Tesseract-OCR'    #Coloque o caminho aonde você instalou o tesseract
 
 pytesseract.pytesseract.tesseract_cmd = caminho + r'\tesseract.exe'
 file = filedialog.askopenfilename()
